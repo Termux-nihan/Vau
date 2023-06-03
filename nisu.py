@@ -196,7 +196,7 @@ def login():
 	banner()
 	NIHANj('\033[1;96m[1] File Cloning\n\x1b[1;92m[2] Contact With Admin\n\033[0;97m[0] \033[0;91mEXIT ')
 	NIHANj('\033[0;97m===============================================')
-    NIHANj=('\x1b[1;92m[+] CHOOSE: ');time.sleep(0.01)
+    NIHANj=input('\x1b[1;92m[+] CHOOSE: ');time.sleep(0.01)
 	if NIHANin ['m']:
 		public()
 	elif NIHANin ['1']:
